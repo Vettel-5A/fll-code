@@ -12,6 +12,8 @@
      - If both values are equal, print “Gyro Okay” on screen
      - If both values are not equal, print “Gyro Bad” on screen
 
-  - Light Sensor Calibration: When in different areas, the reflective intensity of the black lines on the game mat vary. This variance in the reflective intensity of the lines in different locations can lead to incorrect light sensor inputs. Through the use of this program, we will be able to 
+  - Light Sensor Calibration: When in different areas, the reflective intensity of the black lines on the game mat vary. This variance in the reflective intensity of the lines in different locations can lead to incorrect light sensor inputs. Through the use of this program, you will be able to associate certain reflective intensity values with different colors, namely black and white.
+  
+  
      
 
