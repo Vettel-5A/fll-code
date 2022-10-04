@@ -15,7 +15,7 @@ ev3.screen.clear()
 wait(500)
 measure_1 = Gyro.angle()
 
-# Waits 2 seconds, then Reads and writes angle into a 
+# Waits 2 seconds, then reads and writes angle into a 
 # second variable (measure 2)
 wait(2000)
 measure_2 = Gyro.angle()
