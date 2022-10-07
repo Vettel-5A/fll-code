@@ -3,8 +3,14 @@ from pybricks.ev3devices import (Motor, TouchSensor, ColorSensor,
                                  InfraredSensor, UltrasonicSensor, GyroSensor)
 from pybricks.parameters import Port, Stop, Button
 from pybricks.tools import wait, StopWatch, DataLog
-from runs import run1, run2, run3, run4, run5, run6, run7, run8
-
+import run1
+import run2
+import run3
+import run4
+import run5
+import run6
+import run7
+import run8
 
 # This program requires LEGO EV3 MicroPython v2.0 or higher.
 # Click "Open user guide" on the EV3 extension tab for more information.
@@ -17,18 +23,17 @@ button_pressed = False
 ev3.screen.clear()
 
 # Write your program here.
-while not button_pressed:
-    if len(buttons.pressed()) == 1:
-        if buttons.pressed() == UP:
-            # Insert Run 1 run code
-        if buttons.pressed() == RIGHT:
-            # Insert Run 2 run code
-        if buttons.pressed() == LEFT:
-            # Insert Run 3 run code
-        if buttons.pressed() == DOWN:
-            # Insert Run 4 run code
-        if buttons.pressed() == CENTER:
-            screen.change_screen()
+if len(buttons.pressed()) == 1:
+    if buttons.pressed() == UP:
+        run1()
+    elif buttons.pressed() == RIGHT:
+        run2()
+    elif buttons.pressed() == LEFT:
+        run3()
+    elif buttons.pressed() == DOWN:
+        run4()
+    elif buttons.pressed() == CENTER:
+        screen.change_screen()
     
     else:
 
