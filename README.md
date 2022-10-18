@@ -20,6 +20,7 @@
 QuickClick Program
   - Purpose: In between runs, you sometimes have to scroll through directories to find the program for you next run. This program solves this problem
   - main.py: This is where multiple run programs can be associated with different buttons.
+  - RUNS Folder Copy and paste your code into these files in order to access it when clicking a button on the EV3 Brick.
   
   
      
