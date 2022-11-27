@@ -9,3 +9,13 @@ ev3 = EV3Brick()
 gyro = GyroSensor(Port.S1)
 
 # Sets the speed of the motors
+d_motor1 = Motor(Port.B)
+d_motor2 = Motor(Port.C)
+d_motor1.run(1)
+d_motor2.run(1)
+
+# Code time
+
+while True:
+    if gyro.angle() 
+    
