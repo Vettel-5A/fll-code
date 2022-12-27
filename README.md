@@ -1,6 +1,9 @@
 # First Lego League Code
  Code for recommended initializing procedures as well as templates for FLL code ideas
  
+ Code Documentation: https://docs.google.com/document/d/1L-vY9ZRlwiV9AIiR_AnPDOg0YfTWxm7PydY-MSLL1rA/edit?usp=sharing
+ 
+ 
  Initialization Programs
   - GyroChecker: The Gyro Sensor can drift if it is not held steady during power up. If the Gyro Sensor drifts, then it cannot be used to measure angles and to make the robot move in a straight line. With our Gyro_check program, you can fix the drift problem, if any, and ensure our missions are run perfectly. The steps for this program are:
 
